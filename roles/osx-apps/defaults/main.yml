@@ -2,10 +2,25 @@
 osx_apps:
   casks:
     - name: alfred
+    - name: coda
     - name: dropbox
-    - name: iterm2
+    - name: google-drive
+    - name: iterm2-beta
     - name: slate
     - name: karabiner
     - name: xquartz
+    - name: java
+    - name: flash-player
+    - name: osxfuse
+    - name: vmware-fusion
     - name: virtualbox
-    - name: boot2docker
+    - name: vagrant
+    - name: sublime-text3
+    - name: atom
+    - name: github
+    - name: sourcetree
+    - name: vlc
+    - name: google-chrome
+    - name: foxmail
+    - name: gpgtools
+    - name: evernote
