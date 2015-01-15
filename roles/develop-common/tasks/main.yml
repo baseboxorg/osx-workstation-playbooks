@@ -4,7 +4,7 @@
   file:
     path="{{ homebrew.dest }}"
     mode=0755
-    owner=aereal
+    owner=baseboxorg
     group=staff
     state=directory
   sudo: yes
