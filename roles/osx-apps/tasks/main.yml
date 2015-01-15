@@ -1,7 +1,7 @@
 ---
 -
   name: Tap Homebrew Cask
-  homebrew_tap: name=caskroom/cask
+  homebrew_tap: caskroom/cask
   environment:
     PATH: "{{ homebrew.dest }}/bin:{{ ansible_env.PATH }}"
 -
@@ -10,6 +10,16 @@
   environment:
     PATH: "{{ homebrew.dest }}/bin:{{ ansible_env.PATH }}"
 -
+  name: Tap Homebrew Cask-Versions
+  homebrew_tap: caskroom/versions
+  environment:
+  PATH: "{{ homebrew.dest }}/bin:{{ ansible_env.PATH }}"
+  
+  name: Tap Homebrew Cask-Fonts
+  homebrew_tap: caskroom/fonts
+  environment:
+  PATH: "{{ homebrew.dest }}/bin:{{ ansible_env.PATH }}"
+  
   name: Install Casks
   homebrew_cask:
     name="{{ item.name }}"
